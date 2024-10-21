@@ -1,0 +1,119 @@
+.SignupLogin{
+    width:100% ;
+    height: 82vh;
+    background: #ffffff;
+    padding-top: 100px;
+}
+
+.SignupLogin-container{
+    width: 580px;
+    height: 600px;
+   
+    background: rgb(241, 189, 189);
+    margin: auto;
+    padding: 30px 60px;
+    border-radius: 40px;
+
+
+}
+.SignupLogin-container h1{
+    margin: 5px 0px;
+
+}
+.SignupLogin-fields{
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+    margin-top: 30px;
+}
+.SignupLogin-fields input{
+    height: 62px;
+    width: 100%;
+    padding-left: 20px;
+    border: 1px solid #060303;
+    outline: none;
+    color: #5c5c5c;
+    font-size: 18px;
+}
+.SignupLogin-container button{
+    width: 460px;
+    height: 62px;
+    color: rgb(255, 255, 255);
+    background-color: #5890ff;
+    margin-top: 30px;
+    border: none;
+    font-size: 24px;
+    font-weight: 500;
+    cursor: pointer;
+
+}
+.SignupLogin-Login{
+    margin-top: 20px;
+    color: #3552f6;
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    
+
+}
+.SignupLogin-Login span{
+    color: #000000;
+    font-weight: 600;
+}
+.SignupLogin-agree{
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    gap: 20px;
+    color: #000000;
+    font-size: 18px;
+    font-weight: 300px;
+}
+
+
+@media (max-width: 1280px) {
+    .SignupLogin-container {
+        width: 500px; /* Adjust container width for smaller screens */
+        padding: 30px 40px; /* Adjust container padding for smaller screens */
+    }
+    .SignupLogin-container button {
+        width: 420px; /* Adjust button width for smaller screens */
+    }
+}
+
+@media (max-width: 1024px) {
+    .SignupLogin-container {
+        width: 400px; /* Adjust container width for smaller screens */
+        padding: 30px 30px; /* Adjust container padding for smaller screens */
+    }
+    .SignupLogin-container button {
+        width: 340px; /* Adjust button width for smaller screens */
+    }
+}
+
+@media (max-width: 800px) {
+    .SignupLogin {
+        height: auto; /* Allow height to adjust dynamically for smaller screens */
+        padding-top: 80px; /* Adjust top padding for smaller screens */
+    }
+    .SignupLogin-container {
+        width: 300px; /* Adjust container width for smaller screens */
+        padding: 20px; /* Adjust container padding for smaller screens */
+    }
+    .SignupLogin-fields input {
+        height: 50px; /* Adjust input height for smaller screens */
+    }
+    .SignupLogin-container button {
+        width: 260px; /* Adjust button width for smaller screens */
+        font-size: 20px; /* Adjust button font size for smaller screens */
+    }
+}
+
+@media (max-width: 500px) {
+    .SignupLogin-container {
+        width: 90%; /* Adjust container width for smaller screens */
+    }
+    .SignupLogin-container button {
+        width: 100%; /* Adjust button width for smaller screens */
+    }
+}
